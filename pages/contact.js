@@ -35,28 +35,28 @@ export default function Contact() {
       city: "Kolkata (HQ)",
       address: "123 Business District, Kolkata 700001, West Bengal, India",
       phone: "+91 98765 43210",
-      email: "kolkata@pkscapital.com",
+      email: "admin@pkscapitaladvisory.com",
       hours: "Mon - Fri: 9:00 AM - 6:00 PM"
     },
     {
       city: "Mumbai",
       address: "456 Financial Center, Mumbai 400001, Maharashtra, India",
       phone: "+91 98765 43211",
-      email: "mumbai@pkscapital.com",
+      email: "admin@pkscapitaladvisory.com",
       hours: "Mon - Fri: 9:00 AM - 6:00 PM"
     },
     {
       city: "Lucknow",
       address: "789 Corporate Plaza, Lucknow 226001, Uttar Pradesh, India",
       phone: "+91 98765 43212",
-      email: "lucknow@pkscapital.com",
+      email: "admin@pkscapitaladvisory.com",
       hours: "Mon - Fri: 9:00 AM - 6:00 PM"
     },
     {
       city: "United Kingdom",
       address: "321 Business Square, London EC1A 4HD, United Kingdom",
       phone: "+44 20 7123 4567",
-      email: "uk@pkscapital.com",
+      email: "admin@pkscapitaladvisory.com",
       hours: "Mon - Fri: 9:00 AM - 5:00 PM"
     }
   ]
@@ -74,7 +74,7 @@ export default function Contact() {
       <Navbar />
       
       {/* Hero Section */}
-      <section className="pt-20 pb-16 bg-gradient-to-br from-royal-blue to-light-blue">
+      <section className="pt-32 pb-24 bg-gradient-to-br from-royal-blue to-light-blue">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 font-montserrat">
             Contact Us
@@ -192,8 +192,19 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">Email</h3>
-                    <p className="text-gray-600">info@pkscapital.com</p>
+                    <p className="text-gray-600">admin@pkscapitaladvisory.com</p>
                     <p className="text-sm text-gray-500">We'll respond within 24 hours</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start space-x-4">
+                  <div className="bg-royal-blue bg-opacity-10 rounded-full p-3 flex-shrink-0">
+                    <Mail className="h-6 w-6 text-royal-blue" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-gray-900 mb-1">Admin Email</h3>
+                    <p className="text-gray-600">admin@pkscapitaladvisory.com</p>
+                    <p className="text-sm text-gray-500">For administrative inquiries</p>
                   </div>
                 </div>
 

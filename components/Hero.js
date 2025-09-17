@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-royal-blue to-light-blue">
+    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-royal-blue to-light-blue pt-28">
       {/* Background Image */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
@@ -52,18 +52,18 @@ export default function Hero() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
           <div className="bg-white bg-opacity-10 backdrop-blur-sm rounded-lg p-6 text-center slide-in-left">
             <TrendingUp className="h-12 w-12 text-white mx-auto mb-4" />
-            <h3 className="text-2xl font-bold text-white mb-2">500+</h3>
-            <p className="text-gray-200">Successful Transactions</p>
+            <h3 className="text-2xl font-bold text-white mb-2">100+</h3>
+            <p className="text-gray-200">In years of experience</p>
           </div>
           <div className="bg-white bg-opacity-10 backdrop-blur-sm rounded-lg p-6 text-center fade-in">
             <Users className="h-12 w-12 text-white mx-auto mb-4" />
-            <h3 className="text-2xl font-bold text-white mb-2">50+</h3>
-            <p className="text-gray-200">Expert Team Members</p>
+            <h3 className="text-2xl font-bold text-white mb-2">100+</h3>
+            <p className="text-gray-200">total manpower experience</p>
           </div>
           <div className="bg-white bg-opacity-10 backdrop-blur-sm rounded-lg p-6 text-center slide-in-right">
             <Target className="h-12 w-12 text-white mx-auto mb-4" />
-            <h3 className="text-2xl font-bold text-white mb-2">15+</h3>
-            <p className="text-gray-200">Years of Experience</p>
+            <h3 className="text-2xl font-bold text-white mb-2">5+</h3>
+            <p className="text-gray-200">years old</p>
           </div>
         </div>
       </div>

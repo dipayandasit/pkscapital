@@ -1,13 +1,25 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Link from 'next/link'
-import { Menu, X, Building2 } from 'lucide-react'
+import Image from 'next/image'
+import { Menu, X } from 'lucide-react'
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
+  const [isScrolled, setIsScrolled] = useState(false)
 
   const toggleMenu = () => {
     setIsOpen(!isOpen)
   }
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.scrollY
+      setIsScrolled(scrollTop > 50)
+    }
+
+    window.addEventListener('scroll', handleScroll)
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
 
   const navItems = [
     { name: 'Home', href: '/' },
@@ -20,16 +32,21 @@ export default function Navbar() {
   ]
 
   return (
-    <nav className="bg-white shadow-lg fixed w-full z-50 top-0">
+    <nav className={`bg-white shadow-lg fixed w-full z-50 top-0 transition-all duration-300 ${
+      isScrolled ? 'shadow-xl bg-white/95 backdrop-blur-sm' : 'shadow-lg'
+    }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <Link href="/" className="flex items-center space-x-2">
-              <Building2 className="h-8 w-8 text-royal-blue" />
-              <span className="text-xl font-bold text-royal-blue font-montserrat">
-                PKS Capital
-              </span>
+            <Link href="/" className="flex items-center">
+              <Image
+                src="/images/logo/companylogo.svg"
+                alt="PKS Capital Logo"
+                width={60}
+                height={60}
+                className="h-15 w-15"
+              />
             </Link>
           </div>
 

@@ -3,15 +3,11 @@ import { useState } from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import ImageModal from '../components/ImageModal'
-import { galleryImages, getCategories, getImagesByCategory } from '../utils/galleryImages'
+import { galleryImages } from '../utils/galleryImages'
 
 export default function Gallery() {
   const [selectedImageIndex, setSelectedImageIndex] = useState(0)
   const [isModalOpen, setIsModalOpen] = useState(false)
-  const [selectedCategory, setSelectedCategory] = useState("All")
-
-  const categories = getCategories()
-  const filteredImages = getImagesByCategory(selectedCategory)
 
   const openModal = (index) => {
     setSelectedImageIndex(index)
@@ -35,7 +31,7 @@ export default function Gallery() {
       <Navbar />
       
       {/* Hero Section */}
-      <section className="pt-20 pb-16 bg-gradient-to-br from-royal-blue to-light-blue">
+      <section className="pt-32 pb-24 bg-gradient-to-br from-royal-blue to-light-blue">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 font-montserrat">
             Gallery
@@ -46,24 +42,15 @@ export default function Gallery() {
         </div>
       </section>
 
-      {/* Category Filter */}
-      <section className="py-8 bg-white border-b">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-wrap justify-center gap-4">
-            {categories.map((category) => (
-              <button
-                key={category}
-                onClick={() => setSelectedCategory(category)}
-                className={`px-6 py-3 rounded-full font-medium transition-colors duration-200 ${
-                  selectedCategory === category
-                    ? 'bg-royal-blue text-white'
-                    : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                }`}
-              >
-                {category}
-              </button>
-            ))}
-          </div>
+      {/* PR Section */}
+      <section className="py-12 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 font-montserrat">
+            PR
+          </h2>
+          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+            Showcasing our work and achievements
+          </p>
         </div>
       </section>
 
@@ -71,7 +58,7 @@ export default function Gallery() {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-            {filteredImages.map((image, index) => (
+            {galleryImages.map((image, index) => (
               <div
                 key={index}
                 className="group cursor-pointer rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
@@ -97,25 +84,17 @@ export default function Gallery() {
                   <h3 className="font-semibold text-gray-900 mb-1 font-montserrat">
                     {image.alt}
                   </h3>
-                  <p className="text-sm text-gray-500 capitalize">
-                    {image.category}
-                  </p>
                 </div>
               </div>
             ))}
           </div>
 
-          {filteredImages.length === 0 && (
-            <div className="text-center py-12">
-              <p className="text-gray-500 text-lg">No images found in this category.</p>
-            </div>
-          )}
         </div>
       </section>
 
       {/* Image Modal */}
       <ImageModal
-        images={filteredImages}
+        images={galleryImages}
         currentIndex={selectedImageIndex}
         isOpen={isModalOpen}
         onClose={closeModal}

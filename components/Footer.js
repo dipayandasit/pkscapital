@@ -1,4 +1,5 @@
-import { Building2, MapPin, Phone, Mail, Linkedin, Twitter, Facebook } from 'lucide-react'
+import Image from 'next/image'
+import { MapPin, Phone, Mail, Linkedin, Twitter, Facebook } from 'lucide-react'
 
 export default function Footer() {
   return (
@@ -7,9 +8,14 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="space-y-4">
-            <div className="flex items-center space-x-2">
-              <Building2 className="h-8 w-8 text-white" />
-              <span className="text-xl font-bold font-montserrat">PKS Capital</span>
+            <div className="flex items-center">
+              <Image
+                src="/images/logo/companylogo.svg"
+                alt="PKS Capital Logo"
+                width={50}
+                height={50}
+                className="h-12 w-12"
+              />
             </div>
             <p className="text-gray-300 text-sm leading-relaxed">
               Your Growth Partner in Investment Banking & Advisory. 
@@ -68,7 +74,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center space-x-3">
                 <Mail size={16} className="text-royal-blue flex-shrink-0" />
-                <span className="text-sm text-gray-300">info@pkscapital.com</span>
+                <span className="text-sm text-gray-300">admin@pkscapitaladvisory.com</span>
               </div>
             </div>
           </div>

@@ -1,7 +1,8 @@
 import Head from 'next/head'
+import Image from 'next/image'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
-import { Building2, Target, Users, Award, TrendingUp, Shield } from 'lucide-react'
+import { Target, Users, Award, TrendingUp, Shield } from 'lucide-react'
 
 export default function About() {
   return (
@@ -17,7 +18,7 @@ export default function About() {
       <Navbar />
       
       {/* Hero Section */}
-      <section className="pt-20 pb-16 bg-gradient-to-br from-royal-blue to-light-blue">
+      <section className="pt-32 pb-24 bg-gradient-to-br from-royal-blue to-light-blue">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 font-montserrat">
             About PKS Capital Advisory LLP
@@ -33,9 +34,18 @@ export default function About() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 font-montserrat">
-                Company Overview
-              </h2>
+              <div className="flex items-center space-x-4 mb-6">
+                <Image
+                  src="/images/logo/companylogo.svg"
+                  alt="PKS Capital Logo"
+                  width={80}
+                  height={80}
+                  className="h-20 w-20"
+                />
+                <h2 className="text-3xl md:text-4xl font-bold text-gray-900 font-montserrat">
+                  Company Overview
+                </h2>
+              </div>
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
                   PKS Capital Advisory LLP is a leading investment banking and advisory firm 
@@ -50,7 +60,7 @@ export default function About() {
                   capital services, helping businesses achieve their growth objectives.
                 </p>
                 <p>
-                  Since our inception, we have successfully completed over 500 transactions, 
+                  Since our inception, we have successfully completed over numerous marquee deals, 
                   working with companies ranging from emerging startups to established 
                   enterprises across healthcare, hospitality, BFSI, and SME sectors.
                 </p>

@@ -87,7 +87,7 @@ export default function Services() {
       <Navbar />
       
       {/* Hero Section */}
-      <section className="pt-20 pb-16 bg-gradient-to-br from-royal-blue to-light-blue">
+      <section className="pt-32 pb-24 bg-gradient-to-br from-royal-blue to-light-blue">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 font-montserrat">
             Our Services
@@ -115,7 +115,31 @@ export default function Services() {
               const IconComponent = service.icon;
               return (
               <div key={index} className="bg-gray-50 rounded-lg p-8 hover:shadow-lg transition-shadow duration-300">
-                <div className="flex items-start space-x-6">
+                {/* Mobile Layout: Icon on top, text below */}
+                <div className="flex flex-col items-center text-center lg:hidden">
+                  <div className="bg-royal-blue bg-opacity-10 rounded-full p-6 mb-6">
+                    <IconComponent className="h-24 w-24 text-royal-blue" />
+                  </div>
+                  <div className="w-full">
+                    <h3 className="text-2xl font-bold text-gray-900 mb-3 font-montserrat">
+                      {service.title}
+                    </h3>
+                    <p className="text-gray-600 mb-6 leading-relaxed">
+                      {service.description}
+                    </p>
+                    <ul className="space-y-2">
+                      {service.features.map((feature, featureIndex) => (
+                        <li key={featureIndex} className="flex items-center text-gray-600">
+                          <div className="w-2 h-2 bg-royal-blue rounded-full mr-3 flex-shrink-0"></div>
+                          {feature}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
+                
+                {/* Desktop Layout: Icon on left, text on right */}
+                <div className="hidden lg:flex items-start space-x-6">
                   <div className="bg-royal-blue bg-opacity-10 rounded-full p-4 flex-shrink-0">
                     <IconComponent className="h-8 w-8 text-royal-blue" />
                   </div>
@@ -160,15 +184,31 @@ export default function Services() {
               const IconComponent = service.icon;
               return (
               <div key={index} className="bg-white rounded-lg p-6 text-center hover:shadow-lg transition-shadow duration-300">
-                <div className="bg-royal-blue bg-opacity-10 rounded-full p-4 w-16 h-16 mx-auto mb-6 flex items-center justify-center">
-                  <IconComponent className="h-8 w-8 text-royal-blue" />
+                {/* Mobile Layout: Large icon */}
+                <div className="md:hidden">
+                  <div className="bg-royal-blue bg-opacity-10 rounded-full p-6 w-24 h-24 mx-auto mb-6 flex items-center justify-center">
+                    <IconComponent className="h-24 w-24 text-royal-blue" />
+                  </div>
+                  <h3 className="text-xl font-semibold text-gray-900 mb-3 font-montserrat">
+                    {service.title}
+                  </h3>
+                  <p className="text-gray-600 text-sm leading-relaxed">
+                    {service.description}
+                  </p>
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-3 font-montserrat">
-                  {service.title}
-                </h3>
-                <p className="text-gray-600 text-sm leading-relaxed">
-                  {service.description}
-                </p>
+                
+                {/* Desktop Layout: Regular icon */}
+                <div className="hidden md:block">
+                  <div className="bg-royal-blue bg-opacity-10 rounded-full p-4 w-16 h-16 mx-auto mb-6 flex items-center justify-center">
+                    <IconComponent className="h-8 w-8 text-royal-blue" />
+                  </div>
+                  <h3 className="text-xl font-semibold text-gray-900 mb-3 font-montserrat">
+                    {service.title}
+                  </h3>
+                  <p className="text-gray-600 text-sm leading-relaxed">
+                    {service.description}
+                  </p>
+                </div>
               </div>
               );
             })}

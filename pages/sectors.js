@@ -92,7 +92,7 @@ export default function Sectors() {
       <Navbar />
       
       {/* Hero Section */}
-      <section className="pt-20 pb-16 bg-gradient-to-br from-royal-blue to-light-blue">
+      <section className="pt-32 pb-24 bg-gradient-to-br from-royal-blue to-light-blue">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 font-montserrat">
             Core Sectors
