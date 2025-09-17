@@ -74,9 +74,9 @@ export default function Contact() {
       <Navbar />
       
       {/* Hero Section */}
-      <section className="pt-32 pb-24 bg-gradient-to-br from-royal-blue to-light-blue">
+      <section className="pt-36 pb-24 bg-gradient-to-br from-royal-blue to-light-blue">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 font-montserrat">
+          <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 font-poppins">
             Contact Us
           </h1>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto">
@@ -91,7 +91,7 @@ export default function Contact() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Contact Form */}
             <div>
-              <h2 className="text-3xl font-bold text-gray-900 mb-6 font-montserrat">
+              <h2 className="text-3xl font-bold text-gray-900 mb-6 font-poppins">
                 Send us a Message
               </h2>
               <p className="text-gray-600 mb-8">
@@ -167,7 +167,7 @@ export default function Contact() {
 
             {/* Contact Information */}
             <div>
-              <h2 className="text-3xl font-bold text-gray-900 mb-6 font-montserrat">
+              <h2 className="text-3xl font-bold text-gray-900 mb-6 font-poppins">
                 Get in Touch
               </h2>
               <p className="text-gray-600 mb-8">
@@ -229,7 +229,7 @@ export default function Contact() {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 font-montserrat">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 font-poppins">
               Our Offices
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -242,7 +242,7 @@ export default function Contact() {
               <div key={index} className="bg-white rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <div className="flex items-center mb-4">
                   <MapPin className="h-6 w-6 text-royal-blue mr-3 flex-shrink-0" />
-                  <h3 className="text-lg font-semibold text-gray-900 font-montserrat">
+                  <h3 className="text-lg font-semibold text-gray-900 font-poppins">
                     {office.city}
                   </h3>
                 </div>
@@ -273,7 +273,7 @@ export default function Contact() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 font-montserrat">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 font-poppins">
               Find Us
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">

@@ -9,15 +9,15 @@ export default function Footer() {
           {/* Company Info */}
           <div className="space-y-4">
             <div className="flex items-center">
-              <Image
-                src="/images/logo/companylogo.svg"
-                alt="PKS Capital Logo"
-                width={50}
-                height={50}
-                className="h-12 w-12"
-              />
+        <Image
+          src="/images/logo/companylogo.svg"
+          alt="PKS Capital Logo"
+          width={200}
+          height={200}
+          className="h-50 w-50"
+        />
             </div>
-            <p className="text-gray-300 text-sm leading-relaxed">
+            <p className="text-gray-300 text-sm leading-relaxed font-poppins">
               Your Growth Partner in Investment Banking & Advisory. 
               Empowering businesses through strategic financial solutions.
             </p>
@@ -36,24 +36,24 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div className="space-y-4">
-            <h3 className="text-lg font-semibold">Quick Links</h3>
+            <h3 className="text-lg font-semibold font-poppins">Quick Links</h3>
             <ul className="space-y-2">
-              <li><a href="/about" className="text-gray-300 hover:text-white transition-colors">About Us</a></li>
-              <li><a href="/services" className="text-gray-300 hover:text-white transition-colors">Services</a></li>
-              <li><a href="/sectors" className="text-gray-300 hover:text-white transition-colors">Core Sectors</a></li>
-              <li><a href="/team" className="text-gray-300 hover:text-white transition-colors">Our Team</a></li>
-              <li><a href="/gallery" className="text-gray-300 hover:text-white transition-colors">Gallery</a></li>
+              <li><a href="/about" className="text-gray-300 hover:text-white transition-colors font-poppins">About Us</a></li>
+              <li><a href="/services" className="text-gray-300 hover:text-white transition-colors font-poppins">Services</a></li>
+              <li><a href="/sectors" className="text-gray-300 hover:text-white transition-colors font-poppins">Core Sectors</a></li>
+              <li><a href="/team" className="text-gray-300 hover:text-white transition-colors font-poppins">Our Team</a></li>
+              <li><a href="/gallery" className="text-gray-300 hover:text-white transition-colors font-poppins">Gallery</a></li>
             </ul>
           </div>
 
           {/* Services */}
           <div className="space-y-4">
-            <h3 className="text-lg font-semibold">Our Services</h3>
+            <h3 className="text-lg font-semibold font-poppins">Our Services</h3>
             <ul className="space-y-2">
-              <li><span className="text-gray-300">Mergers & Acquisitions</span></li>
-              <li><span className="text-gray-300">Capital Raising</span></li>
-              <li><span className="text-gray-300">Strategic Advisory</span></li>
-              <li><span className="text-gray-300">Venture Capital Services</span></li>
+              <li><span className="text-gray-300 font-poppins">Mergers & Acquisitions</span></li>
+              <li><span className="text-gray-300 font-poppins">Capital Raising</span></li>
+              <li><span className="text-gray-300 font-poppins">Strategic Advisory</span></li>
+              <li><span className="text-gray-300 font-poppins">Venture Capital Services</span></li>
             </ul>
           </div>
 
@@ -70,11 +70,11 @@ export default function Footer() {
               </div>
               <div className="flex items-center space-x-3">
                 <Phone size={16} className="text-royal-blue flex-shrink-0" />
-                <span className="text-sm text-gray-300">+91 98765 43210</span>
+                <span className="text-sm text-gray-300 font-poppins">+91 98765 43210</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail size={16} className="text-royal-blue flex-shrink-0" />
-                <span className="text-sm text-gray-300">admin@pkscapitaladvisory.com</span>
+                <span className="text-sm text-gray-300 font-poppins">admin@pkscapitaladvisory.com</span>
               </div>
             </div>
           </div>

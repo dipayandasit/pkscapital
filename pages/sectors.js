@@ -92,9 +92,9 @@ export default function Sectors() {
       <Navbar />
       
       {/* Hero Section */}
-      <section className="pt-32 pb-24 bg-gradient-to-br from-royal-blue to-light-blue">
+      <section className="pt-36 pb-24 bg-gradient-to-br from-royal-blue to-light-blue">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 font-montserrat">
+          <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 font-poppins">
             Core Sectors
           </h1>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto">
@@ -107,7 +107,7 @@ export default function Sectors() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 font-montserrat">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 font-poppins">
               Industry Expertise
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -133,14 +133,14 @@ export default function Sectors() {
                   </div>
                 </div>
                 <div className="p-8">
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4 font-montserrat">
+                  <h3 className="text-2xl font-bold text-gray-900 mb-4 font-poppins">
                     {sector.title}
                   </h3>
                   <p className="text-gray-600 mb-6 leading-relaxed">
                     {sector.description}
                   </p>
                   <div>
-                    <h4 className="text-lg font-semibold text-gray-900 mb-3 font-montserrat">
+                    <h4 className="text-lg font-semibold text-gray-900 mb-3 font-poppins">
                       Our Services:
                     </h4>
                     <ul className="space-y-2">
@@ -163,7 +163,7 @@ export default function Sectors() {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 font-montserrat">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 font-poppins">
               Sector Performance
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -196,7 +196,7 @@ export default function Sectors() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 font-montserrat">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 font-poppins">
               Why Choose PKS Capital?
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -209,7 +209,7 @@ export default function Sectors() {
               <div className="bg-royal-blue bg-opacity-10 rounded-full p-6 w-20 h-20 mx-auto mb-6 flex items-center justify-center">
                 <span className="text-2xl font-bold text-royal-blue">15+</span>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3 font-montserrat">Years of Experience</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3 font-poppins">Years of Experience</h3>
               <p className="text-gray-600 leading-relaxed">
                 Deep industry knowledge accumulated over years of successful transactions
               </p>
@@ -219,7 +219,7 @@ export default function Sectors() {
               <div className="bg-royal-blue bg-opacity-10 rounded-full p-6 w-20 h-20 mx-auto mb-6 flex items-center justify-center">
                 <span className="text-2xl font-bold text-royal-blue">6</span>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3 font-montserrat">Core Sectors</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3 font-poppins">Core Sectors</h3>
               <p className="text-gray-600 leading-relaxed">
                 Specialized expertise across diverse industries and market segments
               </p>
@@ -229,7 +229,7 @@ export default function Sectors() {
               <div className="bg-royal-blue bg-opacity-10 rounded-full p-6 w-20 h-20 mx-auto mb-6 flex items-center justify-center">
                 <span className="text-2xl font-bold text-royal-blue">500+</span>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3 font-montserrat">Successful Deals</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3 font-poppins">Successful Deals</h3>
               <p className="text-gray-600 leading-relaxed">
                 Proven track record of delivering value across all sectors we serve
               </p>
@@ -241,7 +241,7 @@ export default function Sectors() {
       {/* CTA Section */}
       <section className="py-20 bg-royal-blue">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-6 font-montserrat">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-6 font-poppins">
             Ready to Partner with Us?
           </h2>
           <p className="text-xl text-gray-200 mb-8 max-w-3xl mx-auto">

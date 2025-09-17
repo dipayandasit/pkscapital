@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-royal-blue to-light-blue pt-28">
+    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-royal-blue to-light-blue pt-32">
       {/* Background Image */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
@@ -19,13 +19,13 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="fade-in">
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 font-montserrat">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 font-poppins">
             PKS Capital Advisory LLP
           </h1>
-          <p className="text-xl md:text-2xl text-gray-200 mb-8 max-w-3xl mx-auto">
+          <p className="text-xl md:text-2xl text-gray-200 mb-8 max-w-3xl mx-auto font-poppins">
             Your Growth Partner in Investment Banking & Advisory
           </p>
-          <p className="text-lg text-gray-300 mb-12 max-w-4xl mx-auto leading-relaxed">
+          <p className="text-lg text-gray-300 mb-12 max-w-4xl mx-auto leading-relaxed font-poppins">
             Empowering businesses through strategic financial solutions, mergers & acquisitions, 
             capital raising, and comprehensive advisory services across diverse sectors.
           </p>
@@ -34,14 +34,14 @@ export default function Hero() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
             <Link 
               href="/services"
-              className="bg-white text-royal-blue px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200 flex items-center justify-center space-x-2"
+              className="bg-white text-royal-blue px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200 flex items-center justify-center space-x-2 font-poppins"
             >
               <span>Our Services</span>
               <ArrowRight size={20} />
             </Link>
             <Link 
               href="/about"
-              className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-royal-blue transition-colors duration-200"
+              className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-royal-blue transition-colors duration-200 font-poppins"
             >
               Learn More
             </Link>
@@ -52,18 +52,18 @@ export default function Hero() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
           <div className="bg-white bg-opacity-10 backdrop-blur-sm rounded-lg p-6 text-center slide-in-left">
             <TrendingUp className="h-12 w-12 text-white mx-auto mb-4" />
-            <h3 className="text-2xl font-bold text-white mb-2">100+</h3>
-            <p className="text-gray-200">In years of experience</p>
+            <h3 className="text-2xl font-bold text-white mb-2 font-poppins">100+</h3>
+            <p className="text-gray-200 font-poppins">In years of experience</p>
           </div>
           <div className="bg-white bg-opacity-10 backdrop-blur-sm rounded-lg p-6 text-center fade-in">
             <Users className="h-12 w-12 text-white mx-auto mb-4" />
-            <h3 className="text-2xl font-bold text-white mb-2">100+</h3>
-            <p className="text-gray-200">total manpower experience</p>
+            <h3 className="text-2xl font-bold text-white mb-2 font-poppins">100+</h3>
+            <p className="text-gray-200 font-poppins">total manpower experience</p>
           </div>
           <div className="bg-white bg-opacity-10 backdrop-blur-sm rounded-lg p-6 text-center slide-in-right">
             <Target className="h-12 w-12 text-white mx-auto mb-4" />
-            <h3 className="text-2xl font-bold text-white mb-2">5+</h3>
-            <p className="text-gray-200">years old</p>
+            <h3 className="text-2xl font-bold text-white mb-2 font-poppins">5+</h3>
+            <p className="text-gray-200 font-poppins">years old</p>
           </div>
         </div>
       </div>

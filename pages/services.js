@@ -87,9 +87,9 @@ export default function Services() {
       <Navbar />
       
       {/* Hero Section */}
-      <section className="pt-32 pb-24 bg-gradient-to-br from-royal-blue to-light-blue">
+      <section className="pt-36 pb-24 bg-gradient-to-br from-royal-blue to-light-blue">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 font-montserrat">
+          <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 font-poppins">
             Our Services
           </h1>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto">
@@ -102,7 +102,7 @@ export default function Services() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 font-montserrat">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 font-poppins">
               Core Services
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -121,7 +121,7 @@ export default function Services() {
                     <IconComponent className="h-24 w-24 text-royal-blue" />
                   </div>
                   <div className="w-full">
-                    <h3 className="text-2xl font-bold text-gray-900 mb-3 font-montserrat">
+                    <h3 className="text-2xl font-bold text-gray-900 mb-3 font-poppins">
                       {service.title}
                     </h3>
                     <p className="text-gray-600 mb-6 leading-relaxed">
@@ -144,7 +144,7 @@ export default function Services() {
                     <IconComponent className="h-8 w-8 text-royal-blue" />
                   </div>
                   <div className="flex-1">
-                    <h3 className="text-2xl font-bold text-gray-900 mb-3 font-montserrat">
+                    <h3 className="text-2xl font-bold text-gray-900 mb-3 font-poppins">
                       {service.title}
                     </h3>
                     <p className="text-gray-600 mb-6 leading-relaxed">
@@ -171,7 +171,7 @@ export default function Services() {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 font-montserrat">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 font-poppins">
               Additional Services
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -189,7 +189,7 @@ export default function Services() {
                   <div className="bg-royal-blue bg-opacity-10 rounded-full p-6 w-24 h-24 mx-auto mb-6 flex items-center justify-center">
                     <IconComponent className="h-24 w-24 text-royal-blue" />
                   </div>
-                  <h3 className="text-xl font-semibold text-gray-900 mb-3 font-montserrat">
+                  <h3 className="text-xl font-semibold text-gray-900 mb-3 font-poppins">
                     {service.title}
                   </h3>
                   <p className="text-gray-600 text-sm leading-relaxed">
@@ -202,7 +202,7 @@ export default function Services() {
                   <div className="bg-royal-blue bg-opacity-10 rounded-full p-4 w-16 h-16 mx-auto mb-6 flex items-center justify-center">
                     <IconComponent className="h-8 w-8 text-royal-blue" />
                   </div>
-                  <h3 className="text-xl font-semibold text-gray-900 mb-3 font-montserrat">
+                  <h3 className="text-xl font-semibold text-gray-900 mb-3 font-poppins">
                     {service.title}
                   </h3>
                   <p className="text-gray-600 text-sm leading-relaxed">
@@ -220,7 +220,7 @@ export default function Services() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 font-montserrat">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 font-poppins">
               How We Work
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -233,7 +233,7 @@ export default function Services() {
               <div className="bg-royal-blue text-white rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">
                 1
               </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2 font-montserrat">Discovery</h3>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2 font-poppins">Discovery</h3>
               <p className="text-gray-600 text-sm">
                 Understanding your business objectives and requirements
               </p>
@@ -243,7 +243,7 @@ export default function Services() {
               <div className="bg-royal-blue text-white rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">
                 2
               </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2 font-montserrat">Analysis</h3>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2 font-poppins">Analysis</h3>
               <p className="text-gray-600 text-sm">
                 Comprehensive market and financial analysis
               </p>
@@ -253,7 +253,7 @@ export default function Services() {
               <div className="bg-royal-blue text-white rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">
                 3
               </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2 font-montserrat">Strategy</h3>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2 font-poppins">Strategy</h3>
               <p className="text-gray-600 text-sm">
                 Developing tailored strategies and solutions
               </p>
@@ -263,7 +263,7 @@ export default function Services() {
               <div className="bg-royal-blue text-white rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">
                 4
               </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2 font-montserrat">Execution</h3>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2 font-poppins">Execution</h3>
               <p className="text-gray-600 text-sm">
                 Implementing solutions with ongoing support
               </p>
@@ -275,7 +275,7 @@ export default function Services() {
       {/* CTA Section */}
       <section className="py-20 bg-royal-blue">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-6 font-montserrat">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-6 font-poppins">
             Ready to Get Started?
           </h2>
           <p className="text-xl text-gray-200 mb-8 max-w-3xl mx-auto">

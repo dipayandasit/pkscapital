@@ -18,9 +18,9 @@ export default function About() {
       <Navbar />
       
       {/* Hero Section */}
-      <section className="pt-32 pb-24 bg-gradient-to-br from-royal-blue to-light-blue">
+      <section className="pt-36 pb-24 bg-gradient-to-br from-royal-blue to-light-blue">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 font-montserrat">
+          <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 font-poppins">
             About PKS Capital Advisory LLP
           </h1>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto">
@@ -42,7 +42,7 @@ export default function About() {
                   height={80}
                   className="h-20 w-20"
                 />
-                <h2 className="text-3xl md:text-4xl font-bold text-gray-900 font-montserrat">
+                <h2 className="text-3xl md:text-4xl font-bold text-gray-900 font-poppins">
                   Company Overview
                 </h2>
               </div>
@@ -81,7 +81,7 @@ export default function About() {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 font-montserrat">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 font-poppins">
               Our Vision & Mission
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -94,7 +94,7 @@ export default function About() {
             <div className="bg-white rounded-lg p-8 shadow-lg">
               <div className="text-center mb-6">
                 <Target className="h-16 w-16 text-royal-blue mx-auto mb-4" />
-                <h3 className="text-2xl font-bold text-gray-900 mb-4 font-montserrat">Our Vision</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4 font-poppins">Our Vision</h3>
               </div>
               <p className="text-gray-600 leading-relaxed text-center">
                 To be the leading investment banking and advisory firm that empowers businesses 
@@ -108,7 +108,7 @@ export default function About() {
             <div className="bg-white rounded-lg p-8 shadow-lg">
               <div className="text-center mb-6">
                 <TrendingUp className="h-16 w-16 text-royal-blue mx-auto mb-4" />
-                <h3 className="text-2xl font-bold text-gray-900 mb-4 font-montserrat">Our Mission</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4 font-poppins">Our Mission</h3>
               </div>
               <p className="text-gray-600 leading-relaxed text-center">
                 To provide exceptional investment banking and advisory services that create 
@@ -124,7 +124,7 @@ export default function About() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 font-montserrat">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 font-poppins">
               Our Process
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -137,7 +137,7 @@ export default function About() {
               <div className="bg-royal-blue bg-opacity-10 rounded-full p-6 w-20 h-20 mx-auto mb-6 flex items-center justify-center">
                 <span className="text-2xl font-bold text-royal-blue">1</span>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3 font-montserrat">Understanding</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3 font-poppins">Understanding</h3>
               <p className="text-gray-600 text-sm leading-relaxed">
                 We begin by thoroughly understanding your business, goals, and challenges to develop tailored solutions.
               </p>
@@ -147,7 +147,7 @@ export default function About() {
               <div className="bg-royal-blue bg-opacity-10 rounded-full p-6 w-20 h-20 mx-auto mb-6 flex items-center justify-center">
                 <span className="text-2xl font-bold text-royal-blue">2</span>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3 font-montserrat">Strategy</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3 font-poppins">Strategy</h3>
               <p className="text-gray-600 text-sm leading-relaxed">
                 Our experts develop comprehensive strategies aligned with your objectives and market conditions.
               </p>
@@ -157,7 +157,7 @@ export default function About() {
               <div className="bg-royal-blue bg-opacity-10 rounded-full p-6 w-20 h-20 mx-auto mb-6 flex items-center justify-center">
                 <span className="text-2xl font-bold text-royal-blue">3</span>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3 font-montserrat">Execution</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3 font-poppins">Execution</h3>
               <p className="text-gray-600 text-sm leading-relaxed">
                 We execute with precision, leveraging our network and expertise to achieve optimal results.
               </p>
@@ -167,7 +167,7 @@ export default function About() {
               <div className="bg-royal-blue bg-opacity-10 rounded-full p-6 w-20 h-20 mx-auto mb-6 flex items-center justify-center">
                 <span className="text-2xl font-bold text-royal-blue">4</span>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3 font-montserrat">Support</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3 font-poppins">Support</h3>
               <p className="text-gray-600 text-sm leading-relaxed">
                 We provide ongoing support and monitoring to ensure long-term success and value creation.
               </p>
@@ -180,7 +180,7 @@ export default function About() {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 font-montserrat">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 font-poppins">
               Our Core Values
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -191,7 +191,7 @@ export default function About() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white rounded-lg p-8 shadow-lg text-center">
               <Shield className="h-16 w-16 text-royal-blue mx-auto mb-6" />
-              <h3 className="text-xl font-semibold text-gray-900 mb-4 font-montserrat">Integrity</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4 font-poppins">Integrity</h3>
               <p className="text-gray-600 leading-relaxed">
                 We maintain the highest ethical standards in all our interactions and transactions.
               </p>
@@ -199,7 +199,7 @@ export default function About() {
 
             <div className="bg-white rounded-lg p-8 shadow-lg text-center">
               <Award className="h-16 w-16 text-royal-blue mx-auto mb-6" />
-              <h3 className="text-xl font-semibold text-gray-900 mb-4 font-montserrat">Excellence</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4 font-poppins">Excellence</h3>
               <p className="text-gray-600 leading-relaxed">
                 We strive for excellence in every project, delivering exceptional results for our clients.
               </p>
@@ -207,7 +207,7 @@ export default function About() {
 
             <div className="bg-white rounded-lg p-8 shadow-lg text-center">
               <Users className="h-16 w-16 text-royal-blue mx-auto mb-6" />
-              <h3 className="text-xl font-semibold text-gray-900 mb-4 font-montserrat">Collaboration</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4 font-poppins">Collaboration</h3>
               <p className="text-gray-600 leading-relaxed">
                 We work closely with our clients as partners, fostering long-term relationships.
               </p>

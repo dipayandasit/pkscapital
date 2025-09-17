@@ -36,17 +36,17 @@ export default function Navbar() {
       isScrolled ? 'shadow-xl bg-white/95 backdrop-blur-sm' : 'shadow-lg'
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+        <div className="flex justify-between items-center h-24">
           {/* Logo */}
           <div className="flex items-center">
             <Link href="/" className="flex items-center">
-              <Image
-                src="/images/logo/companylogo.svg"
-                alt="PKS Capital Logo"
-                width={60}
-                height={60}
-                className="h-15 w-15"
-              />
+        <Image
+          src="/images/logo/companylogo.svg"
+          alt="PKS Capital Logo"
+          width={200}
+          height={200}
+          className="h-50 w-50"
+        />
             </Link>
           </div>
 
@@ -57,7 +57,7 @@ export default function Navbar() {
                 <Link
                   key={item.name}
                   href={item.href}
-                  className="text-gray-700 hover:text-royal-blue px-3 py-2 text-sm font-medium transition-colors duration-200"
+                  className="text-gray-700 hover:text-royal-blue px-3 py-2 text-base font-medium font-poppins transition-colors duration-200"
                 >
                   {item.name}
                 </Link>
@@ -85,7 +85,7 @@ export default function Navbar() {
               <Link
                 key={item.name}
                 href={item.href}
-                className="text-gray-700 hover:text-royal-blue block px-3 py-2 text-base font-medium transition-colors duration-200"
+                className="text-gray-700 hover:text-royal-blue block px-3 py-2 text-lg font-medium font-poppins transition-colors duration-200"
                 onClick={() => setIsOpen(false)}
               >
                 {item.name}

@@ -24,7 +24,7 @@ export default function Home() {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 font-montserrat">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 font-poppins">
               Our Foundation
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -37,7 +37,7 @@ export default function Home() {
             <div className="bg-white rounded-lg p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
               <div className="text-center">
                 <Target className="h-16 w-16 text-royal-blue mx-auto mb-6" />
-                <h3 className="text-2xl font-bold text-gray-900 mb-4 font-montserrat">Our Vision</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4 font-poppins">Our Vision</h3>
                 <p className="text-gray-600 leading-relaxed">
                   To be the leading investment banking and advisory firm that empowers businesses 
                   to achieve their growth potential through innovative financial solutions and 
@@ -50,7 +50,7 @@ export default function Home() {
             <div className="bg-white rounded-lg p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
               <div className="text-center">
                 <TrendingUp className="h-16 w-16 text-royal-blue mx-auto mb-6" />
-                <h3 className="text-2xl font-bold text-gray-900 mb-4 font-montserrat">Our Mission</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4 font-poppins">Our Mission</h3>
                 <p className="text-gray-600 leading-relaxed">
                   To provide exceptional investment banking and advisory services that create 
                   sustainable value for our clients, partners, and stakeholders while maintaining 
@@ -63,7 +63,7 @@ export default function Home() {
             <div className="bg-white rounded-lg p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
               <div className="text-center">
                 <Users className="h-16 w-16 text-royal-blue mx-auto mb-6" />
-                <h3 className="text-2xl font-bold text-gray-900 mb-4 font-montserrat">Our Process</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4 font-poppins">Our Process</h3>
                 <p className="text-gray-600 leading-relaxed">
                   We follow a systematic approach: Understanding your needs, developing tailored 
                   strategies, executing with precision, and ensuring long-term success through 
@@ -79,7 +79,7 @@ export default function Home() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 font-montserrat">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 font-poppins">
               Our Core Services
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -92,7 +92,7 @@ export default function Home() {
               <div className="bg-royal-blue bg-opacity-10 rounded-full p-6 w-24 h-24 mx-auto mb-6 group-hover:bg-opacity-20 transition-colors duration-300">
                 <Building2 className="h-12 w-12 text-royal-blue mx-auto" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3 font-montserrat">Mergers & Acquisitions</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3 font-poppins">Mergers & Acquisitions</h3>
               <p className="text-gray-600 text-sm leading-relaxed">
                 Strategic M&A advisory for growth and consolidation opportunities
               </p>
@@ -102,7 +102,7 @@ export default function Home() {
               <div className="bg-royal-blue bg-opacity-10 rounded-full p-6 w-24 h-24 mx-auto mb-6 group-hover:bg-opacity-20 transition-colors duration-300">
                 <TrendingUp className="h-12 w-12 text-royal-blue mx-auto" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3 font-montserrat">Capital Raising</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3 font-poppins">Capital Raising</h3>
               <p className="text-gray-600 text-sm leading-relaxed">
                 Access to diverse funding sources and capital markets
               </p>
@@ -112,7 +112,7 @@ export default function Home() {
               <div className="bg-royal-blue bg-opacity-10 rounded-full p-6 w-24 h-24 mx-auto mb-6 group-hover:bg-opacity-20 transition-colors duration-300">
                 <Target className="h-12 w-12 text-royal-blue mx-auto" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3 font-montserrat">Strategic Advisory</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3 font-poppins">Strategic Advisory</h3>
               <p className="text-gray-600 text-sm leading-relaxed">
                 Expert guidance for strategic business decisions and planning
               </p>
@@ -122,7 +122,7 @@ export default function Home() {
               <div className="bg-royal-blue bg-opacity-10 rounded-full p-6 w-24 h-24 mx-auto mb-6 group-hover:bg-opacity-20 transition-colors duration-300">
                 <Users className="h-12 w-12 text-royal-blue mx-auto" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3 font-montserrat">Venture Capital</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3 font-poppins">Venture Capital</h3>
               <p className="text-gray-600 text-sm leading-relaxed">
                 Investment and advisory services for emerging businesses
               </p>
@@ -144,7 +144,7 @@ export default function Home() {
       {/* CTA Section */}
       <section className="py-20 bg-royal-blue">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-6 font-montserrat">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-6 font-poppins">
             Ready to Grow Your Business?
           </h2>
           <p className="text-xl text-gray-200 mb-8 max-w-3xl mx-auto">

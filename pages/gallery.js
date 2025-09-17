@@ -31,9 +31,9 @@ export default function Gallery() {
       <Navbar />
       
       {/* Hero Section */}
-      <section className="pt-32 pb-24 bg-gradient-to-br from-royal-blue to-light-blue">
+      <section className="pt-36 pb-24 bg-gradient-to-br from-royal-blue to-light-blue">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 font-montserrat">
+          <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 font-poppins">
             Gallery
           </h1>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto">
@@ -45,7 +45,7 @@ export default function Gallery() {
       {/* PR Section */}
       <section className="py-12 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 font-montserrat">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 font-poppins">
             PR
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
@@ -81,7 +81,7 @@ export default function Gallery() {
                   </div>
                 </div>
                 <div className="p-4 bg-white">
-                  <h3 className="font-semibold text-gray-900 mb-1 font-montserrat">
+                  <h3 className="font-semibold text-gray-900 mb-1 font-poppins">
                     {image.alt}
                   </h3>
                 </div>
